@@ -10,6 +10,6 @@ def decode_b64_to_file(b64, extension, name=None):
         try:
             fh.write(base64.decodebytes(b64.encode()))
         except Exception as ex:
-            print(ex)
+            raise ex
         else:
             return fh.name
