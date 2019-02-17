@@ -15,6 +15,7 @@ However this service can be adapted to any REST API or other HTTP services devel
 * Do not forget to provide google storage access authorizations in your key.
 * After creating your key, change the information in the "key_storage_credentials.json" file, according to the generated key.
 * Define the storage bucket in Store() class instance, in this example, set in "server.py" file.
+* Install all requirements `pip install -r requirements.txt` and run project: `python server.py` 
 * Application is 8888 default port.
 
 ## Routes
@@ -37,6 +38,8 @@ Porém este serviço pode ser adaptado para qualquer API REST ou outros serviço
 * Não se esqueça de fornecer as autorizações necessárias a sua chave.
 * Apos cria-la, substitua as informações no arquivo "key_storage_credentials.json", de acordo com a chave gerada.
 * Define o storage bucket na instancia da classe Store(), neste exemplo você pode fazer isto no arquivo "server.py"
+* Intale rodas as dependências `pip install -r requirements.txt` e então inicie o projeto: `python server.py` 
+* A Aplicação esta rodando na porta definina no "server.py", por default é 8888.
 
 ## Rotas
 
